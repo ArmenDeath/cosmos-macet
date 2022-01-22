@@ -1,0 +1,139 @@
+@media (max-width: 1024px) {
+    .login {
+        margin-right: 0;
+    }
+
+
+}
+
+@media (max-width: 895px) {
+
+    .header__top {
+        padding-top: 30px;
+    }
+
+    .menu-btn {
+        display: block;
+        height: 30px;
+    }
+
+    .menu__list {
+        transform: translateY(-150%);
+        transition: all .5s;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #010203;
+        padding-top: 90px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu__list.active {
+        transform: translateY(0);
+    }
+
+    .menu__item {
+        padding: 15px 0;
+    }
+
+    .menu__link {
+        display: block;
+    }
+
+    .login,
+    .phone {
+        position: relative;
+        z-index: 20;
+    }
+
+    .header__content {
+        margin: 0 auto;
+    }
+
+    .header__description {
+        justify-content: center;
+    }
+
+    .header {
+        background-position: center right;
+    }
+}
+
+@media (max-width: 620px) {
+    .header__title {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .header__title span {
+        font-size: 60px;
+    }
+
+    .header__content {
+        text-align: center;
+    }
+
+    .header__text {
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .header__text p {
+        padding: 0 10px;
+    }
+
+    .header__btn {
+        font-size: 18px;
+        line-height: 24px;
+        width: 60%;
+    }
+
+    .header__description {
+        display: block;
+    }
+
+    .header__description-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__description-text+.header__description-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .header__top {
+        flex-wrap: wrap;
+    }
+
+    .phone {
+        width: 100%;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .menu,
+    .login {
+        order: -1;
+    }
+
+    .menu__list {
+        padding-top: 110px;
+    }
+
+    .header__title {
+        font-size: 28px;
+    }
+
+    .header__title span {
+        font-size: 32px;
+    }
+}
